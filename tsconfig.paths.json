@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~adapters/*": ["./src/adapters/*"],
+      "~adapters": ["./src/adapters"],
+      "~data/*": ["./src/data/*"],
+      "~data": ["./src/data"],
+      "~functions/*": ["./src/functions/*"],
+      "~functions": ["./src/functions"],
+      "~middlewares/*": ["./src/middlewares/*"],
+      "~middlewares": ["./src/middlewares"],
+      "~schemas/*": ["./src/schemas/*"],
+      "~schemas": ["./src/schemas"],
+      "~third-party/*": ["./src/third-party/*"],
+      "~third-party": ["./src/third-party"],
+      "~utils/*": ["./src/utils/*"],
+      "~utils": ["./src/utils"],
+      "~errors": ["./src/errors"],
+      "~errors/*": ["./src/errors/*"],
+      "~directives": ["./src/directives"],
+      "~directives/*": ["./src/directives/*"],
+      "~resolvers": ["./src/resolvers"],
+      "~resolvers/*": ["./src/resolvers/*"],
+      "~usecases/*": ["./src/usecases/*"],
+      "~usecases": ["./src/usecases"],
+      "~mocks/*": ["./src/__tests__/mocks/*"],
+      "~mocks": ["./src/__tests__/mocks"]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "lib": ["ESNext"],
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES2019",
+    "outDir": "lib",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.d.ts", "templates/**/*.ejs"],
+  "exclude": [
+    "node_modules/**/*",
+    ".serverless/**/*",
+    ".webpack/**/*",
+    "_warmup/**/*",
+    ".vscode/**/*",
+    "@types/node"
+  ]
+}
